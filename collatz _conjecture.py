@@ -22,5 +22,6 @@ def collatz_sequence():
                     break
     except ValueError:
         print('Input is not an integer.')
-
-collatz_sequence()
+     
+for i in range(5):
+    collatz_sequence()
